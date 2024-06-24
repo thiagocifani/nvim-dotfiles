@@ -44,6 +44,7 @@ return {
 				"c",
 				"ruby",
 				"rust",
+				"glimmer",
 			},
 			incremental_selection = {
 				enable = true,

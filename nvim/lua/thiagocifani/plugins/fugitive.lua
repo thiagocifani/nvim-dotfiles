@@ -19,6 +19,11 @@ return {
 		{ noremap = true, silent = true, desc = "Pull changes with rebase" }
 	),
 	vim.keymap.set("n", "<leader>gco", ":Git checkout ", { noremap = true, silent = true, desc = "Checkout a branch" }),
+	vim.keymap.set(
+		"n",
+		"<leader>gcb",
+		":Git checkout -b ",
+		{ noremap = true, silent = true, desc = "Checkout a branch and move to it" }
+	),
 	vim.keymap.set("n", "<leader>gb", ":Git branch ", { noremap = true, silent = true, desc = "Create a new branch" }),
 }
-
