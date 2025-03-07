@@ -20,6 +20,7 @@ return {
 				liquid = { "prettier" },
 				lua = { "stylua" },
 				ruby = { "standardrb" },
+				erb = { "erb_format" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
